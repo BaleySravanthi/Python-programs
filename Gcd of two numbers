@@ -1,4 +1,3 @@
-
 n1 = int(input("Enter first number: "))
 n2 = int(input("Enter second number: ")
 if n2 > n1:
@@ -7,6 +6,7 @@ while n1%n2 != 0:
     (n1,n2) = (n2,n1%n2) 
 print("The GCD of the numbers is ",n2)
        
+
 
 
 
